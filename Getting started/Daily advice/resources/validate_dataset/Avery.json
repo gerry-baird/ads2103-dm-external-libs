@@ -1,0 +1,11 @@
+{
+  "person": {
+    "country": "FRANCE",
+    "inputName": "alain robert"
+  },
+  "weather": {
+    "temperature": "cold",
+    "rainForecast": 10,
+    "stormAlert": false
+  }
+}

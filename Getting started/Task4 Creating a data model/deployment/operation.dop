@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Task4 Creating a data model">
+  <name>Task4-Creating-a-data-model</name>
+  <uuid>a565f1a2-7b6d-48a0-a030-b957601d6c70</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#3837011f-8b25-453e-8c64-065521ddfc48"/>
+  <targetRuleProject href="../../Task4%20Creating%20a%20data%20model#a366175b-5045-4df7-a6c8-602cbe18ac88"/>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[false]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["task4-creating-a-data-model"]]></value>
+  </tags>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

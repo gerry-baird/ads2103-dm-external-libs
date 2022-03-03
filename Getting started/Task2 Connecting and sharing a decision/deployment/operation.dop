@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Task2 Connecting and sharing a decision">
+  <name>Task2-Connecting-and-sharing-a-decision</name>
+  <uuid>296284e3-0319-447e-8051-3e30977f5c76</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#4debf094-0527-4ab9-a680-88f05b3ec6da"/>
+  <targetRuleProject href="../../Task2%20Connecting%20and%20sharing%20a%20decision#0f99dead-b533-494e-ac8f-74ff7e060146"/>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[false]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["task2-connecting-and-sharing-a-decision"]]></value>
+  </tags>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>
