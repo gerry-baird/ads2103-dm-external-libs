@@ -3,11 +3,11 @@
 
     <parent>
         <groupId>cpadmin.gb_external_library.utils_test</groupId>
-        <artifactId>utilsTest</artifactId>
+        <artifactId>utils_Test</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>utilsTestDecisionService</artifactId>
+    <artifactId>utils_TestDecisionService</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -35,6 +35,7 @@
     </dependencies>
 
     
+
 
 
 
