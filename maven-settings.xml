@@ -7,10 +7,17 @@
             <id>ads</id>
             <repositories>
                 <repository>
-                    <id>ads</id>
-                    <name>ads</name>
+                    <id>ads-releases</id>
+                    <name>ads-releases</name>
                     <url>
                         https://nexus-secure-nexus.mycluster-lon02-m-753506-146c6c4a55409bbdb5403b1a18bbffeb-0000.eu-gb.containers.appdomain.cloud/repository/ads-releases/
+                    </url>
+                </repository>
+                <repository>
+                    <id>ads-plugins</id>
+                    <name>ads-plugins</name>
+                    <url>
+                        https://nexus-secure-nexus.mycluster-lon02-m-753506-146c6c4a55409bbdb5403b1a18bbffeb-0000.eu-gb.containers.appdomain.cloud/repository/ads-plugins/
                     </url>
                 </repository>
             </repositories>
