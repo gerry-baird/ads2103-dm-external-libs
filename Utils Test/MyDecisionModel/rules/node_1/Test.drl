@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Test</name>
+  <uuid>b573e724-f1be-47cf-8443-dfde3bc757a2</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[set decision to the age of someone on now who was born on dob ; ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

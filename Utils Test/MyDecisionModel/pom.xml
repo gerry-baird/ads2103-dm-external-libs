@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>cpadmin.gb_external_library.utils_test</groupId>
+        <artifactId>utilsTest</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>cpadmin.gb_external_library.utils_test</groupId>
+    <artifactId>myDecisionModel</artifactId>
+    <version>LATEST-SNAPSHOT</version>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.ibm.decision</groupId>
+                <artifactId>build-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>export</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <deployments>
+                        <deployment>
+                            <name>MyDecisionModel</name>
+                        </deployment>
+                    </deployments>
+                <packageName>cpadmin.gb_external_library.utils_test.mydecisionmodel</packageName>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+<dependencies>
+        <dependency>
+            <groupId>cpadmin.gb_external_library.utils_test</groupId>
+            <artifactId>myModel</artifactId>
+            <version>LATEST-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.decision</groupId>
+            <artifactId>engine-compact-runtime</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.decision</groupId>
+            <artifactId>engine-de-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+        </dependency>
+    </dependencies>
+</project>
