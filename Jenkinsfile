@@ -17,7 +17,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                sh 'mvn -X -s maven-settings.xml clean install -f Utils Test/pom.xml'
+                sh 'mvn -X -s maven-settings.xml clean install -f Utils_Test/pom.xml'
             }
         }
         stage('Test') {
