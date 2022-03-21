@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>cpadmin.gb_external_library.utils_test</groupId>
+        <groupId>ads.external_lib.utils_test</groupId>
         <artifactId>utils_Test</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
@@ -39,7 +39,7 @@
         <dependency>
             <groupId>com.gerry.ads</groupId>
             <artifactId>ads-2103-utils</artifactId>
-            <version>1.0.5</version>
+            <version>1.2</version>
         </dependency>
         <dependency>
             <groupId>com.ibm.decision</groupId>
