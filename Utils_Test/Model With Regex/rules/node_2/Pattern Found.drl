@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Pattern Found</name>
+  <uuid>a08557c2-c9b2-4111-a011-5eab147330e6</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	'Sample Text' is <a string>
+then
+	set decision to <a boolean> ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

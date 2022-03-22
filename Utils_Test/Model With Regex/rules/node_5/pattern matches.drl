@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>pattern matches</name>
+  <uuid>61fa66f2-9144-487d-b032-91b5817341ef</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	regex helper.patternMatches ( 'Pattern Matches Sample' , "\\d{4}-\\d{4}-\\d{2}")
+then
+	set decision to true ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>get matches</name>
+  <uuid>a0e1bb89-e865-4ae1-b7e2-117a2ebd3a45</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[set decision to extract matches for pattern "\\bf.b\\b" from text 'Sample Text' ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

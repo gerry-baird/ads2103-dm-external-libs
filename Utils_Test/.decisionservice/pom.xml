@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>ads.external_lib.utils_test</groupId>
+        <groupId>ads.external_library.utils_test</groupId>
         <artifactId>utils_Test</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
@@ -11,6 +11,11 @@
     <packaging>jar</packaging>
 
     <dependencies>
+        <dependency>
+            <groupId>ads.external_library.utils_test</groupId>
+            <artifactId>modelWithRegex</artifactId>
+            <version>LATEST-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>cpadmin.gb_external_library.utils_test</groupId>
             <artifactId>myDecisionModel</artifactId>
@@ -47,6 +52,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <build>
         <resources>
             <resource>
@@ -71,6 +93,15 @@
                         </goals>
                         <configuration>
                             <artifactItems>
+                                <artifactItem>
+                                    <groupId>ads.external_library.utils_test</groupId>
+                                    <artifactId>modelWithRegex</artifactId>
+                                    <version>LATEST-SNAPSHOT</version>
+                                    <type>jar</type>
+                                    <overWrite>false</overWrite>
+                                    <includes>**/*.class</includes>
+                                    <outputDirectory>${project.build.directory}/classes</outputDirectory>
+                                </artifactItem>
                                 <artifactItem>
                                     <groupId>cpadmin.gb_external_library.utils_test</groupId>
                                     <artifactId>myDecisionModel</artifactId>

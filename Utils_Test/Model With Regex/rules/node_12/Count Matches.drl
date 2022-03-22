@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Count Matches</name>
+  <uuid>6fab0768-d76a-4e1c-8686-be7cef83da49</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[	set decision to the number of matches of pattern "f.b" in text 'Sample Text' ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Alpha Match</name>
+  <uuid>fa44f5fa-8c21-4c29-bb1d-50bec90f774a</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	text 'Sample Number' matches pattern "\\d{4}-\\d{4}-\\d{2}"
+then
+	set decision to true ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

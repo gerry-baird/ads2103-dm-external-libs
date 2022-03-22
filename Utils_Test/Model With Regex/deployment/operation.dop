@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Model With Regex">
+  <name>Model-With-Regex</name>
+  <uuid>0dba917f-6a58-4298-a52e-eadff6b60d7a</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#f69618a8-9bab-4ffe-9bbc-87ad9a216eba"/>
+  <targetRuleProject href="../../Model%20With%20Regex#f13339b6-3154-4693-9687-aab74c5f4799"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>
